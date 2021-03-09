@@ -7,7 +7,7 @@ describe('/api/genres', () => {
     it('dummy test', () => { expect(1).toEqual(1); });
 });
 
-module.exports = function() {
+module.exports = function x() {
     describe('/api/genres', () => {  
         let server;
 

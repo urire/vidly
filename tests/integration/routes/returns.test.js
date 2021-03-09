@@ -26,7 +26,7 @@ module.exports = function() {
         };
     
         beforeEach(async () => { 
-            server = await require('../../../index'); 
+            server = require('../../../index'); 
 
             customerId = mongoose.Types.ObjectId();
             movieId = mongoose.Types.ObjectId();

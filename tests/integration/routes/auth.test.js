@@ -5,12 +5,12 @@ describe('/api/auth', () => {
     it('dummy test', () => { expect(1).toEqual(1); });
 });
 
-module.exports = function() {
+module.exports = () => {
     describe('/api/auth', () => {
         let server;
 
         beforeEach(() => { 
-            server = require('../../../index'); 
+            server = require('../../../index');    
             token = new User().authToken();
         });
 
