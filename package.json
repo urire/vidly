@@ -1,0 +1,38 @@
+{
+  "name": "vidly",
+  "version": "1.0.0",
+  "description": "Movie rental back-end application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose --coverage --setupFiles dotenv/config",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "10.16.3"
+  },
+  "keywords": [],
+  "author": "Uri Reichman",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "config": "^3.3.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^4.4.1",
+    "joi": "^17.4.0",
+    "joi-objectid": "^3.0.1",
+    "joi-password-complexity": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.15",
+    "winston": "^3.2.1",
+    "winston-mongodb": "^5.0.7"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}

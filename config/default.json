@@ -1,0 +1,3 @@
+{
+    "db": "mongodb+srv://uri:1234@clustervidly.bld6m.mongodb.net/vidly?retryWrites=true&w=majority"
+}
